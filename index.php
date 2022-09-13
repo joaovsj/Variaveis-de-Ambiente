@@ -9,8 +9,8 @@
     use \App\Commun\Environment;
 
     Environment::load(__DIR__);
-    // funcao que retorna todas as variaveis de ambiente do seus Sistema Operacional
     
+    // funcao que retorna todas as variaveis de ambiente do seus Sistema Operacional 
     $environment = getenv();
     
     die(var_dump($environment));
